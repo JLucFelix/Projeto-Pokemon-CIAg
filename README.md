@@ -38,10 +38,6 @@ Este é um sistema de Pokédex desenvolvido como parte de um processo seletivo. 
 
 Não há necessidade de instalação de dependências ou builds complexos.
 
-**Opção 1 (Recomendada):**
-Se você utiliza o **Visual Studio Code** com a extensão **Live Server**, basta clicar com o botão direito no arquivo `index.html` e selecionar `Open with Live Server`.
-
-**Opção 2 (Simples):**
 Basta abrir o arquivo `index.html` diretamente no seu navegador de preferência.
 
 ### Como Usar
