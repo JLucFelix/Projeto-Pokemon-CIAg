@@ -130,7 +130,6 @@ divListaFavoritos.addEventListener('click', (evento)=>{
         localStorage.setItem("PokemonFavorito", JSON.stringify(novaListaFavoritos));
         botaoMostrarFavoritos.click();
     }
-    // Caso 2: Editar
     else if(evento.target.classList.contains('editNote')){
         const idParaEditar = evento.target.dataset.id;
 
