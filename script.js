@@ -73,12 +73,13 @@ botaoAdicionar.addEventListener('click', () => {
             const pokemonParaAdicionar = { ...pokemonAtual }; 
             const inputAnotacao = document.getElementById("NotasPokemon");
             
+            pokemonParaAdicionar.favID = crypto.randomUUID()
             pokemonParaAdicionar.note = inputAnotacao.value || ""; 
 
             favoritos.push(pokemonParaAdicionar);
             localStorage.setItem("PokemonFavorito", JSON.stringify(favoritos));
             
-            console.log("Pokémon adicionado! Agora existem " + favoritos.length + " favoritos");
+            console.log("Pokémon adicionado com o id"+ pokemonParaAdicionar.favID +"Agora existem " + favoritos.length + " favoritos");
             inputAnotacao.value = ""; 
         }
     }
